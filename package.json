@@ -1,0 +1,21 @@
+{
+  "name": "week9assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --mochawesome"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "github:cucumber/cucumber-js",
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^5.3.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1"
+  }
+}

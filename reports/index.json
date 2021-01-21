@@ -1,0 +1,141 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-21T21:27:25.862Z",
+    "end": "2021-01-21T21:27:25.895Z",
+    "duration": 33,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6ae33496-90fe-4fd2-9985-6f3b585b8e78",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7de113b2-2ab6-4912-8d4b-138efc6f2abe",
+          "title": "Array tests",
+          "fullFile": "C:\\JAVA SCRIPT Nov 2020\\week9assignment\\specs\\spec.js",
+          "file": "\\specs\\spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Assert length of an array",
+              "fullTitle": "Array tests Assert length of an array",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(names.length).to.equal(5)",
+              "err": {},
+              "uuid": "1cefa554-537e-4e89-aa47-18dc6c9d341d",
+              "parentUUID": "7de113b2-2ab6-4912-8d4b-138efc6f2abe",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Assert name contains Daniel",
+              "fullTitle": "Array tests Assert name contains Daniel",
+              "timedOut": false,
+              "duration": 1,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "assert.isFalse(names.includes('Daniel'))",
+              "err": {},
+              "uuid": "d4a23dc0-4d78-416e-ad5b-373acb8a4c87",
+              "parentUUID": "7de113b2-2ab6-4912-8d4b-138efc6f2abe",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Assert filter name of starts with jack",
+              "fullTitle": "Array tests Assert filter name of starts with jack",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let filteredNames = names.filter(n => n.startsWith('Jack'))\nexpect(filteredNames.length).to.equal(2)",
+              "err": {},
+              "uuid": "e2284625-5358-4c08-8568-216e7b34788f",
+              "parentUUID": "7de113b2-2ab6-4912-8d4b-138efc6f2abe",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1cefa554-537e-4e89-aa47-18dc6c9d341d",
+            "d4a23dc0-4d78-416e-ad5b-373acb8a4c87",
+            "e2284625-5358-4c08-8568-216e7b34788f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "index",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "reports",
+        "reportFilename": "index"
+      },
+      "version": "5.1.0"
+    }
+  }
+}
